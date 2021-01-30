@@ -1,0 +1,31 @@
+{
+	"license": "MIT",
+	"private": false,
+	"main": "index.js",
+	"version": "1.0.0",
+	"name": "@oly_op/stylelint-config",
+	"description": "@oly_op/stylelint-config",
+	"bugs": "https://github.com/olyop/stylelint-config/issues",
+	"homepage": "https://github.com/olyop/stylelint-config/blob/master/README.md",
+	"author": {
+		"name": "Oliver Plummer",
+		"email": "oliver.plummer@outlook.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/olyop/stylelint-config.git"
+	},
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"postpublish": "npm run push",
+		"sync": "git checkout . && git remote update && git pull",
+		"push": "clear && git status && git add -A && git commit -m \"Update\" && git push -u origin main"
+	},
+	"dependencies": {
+		"stylelint": "^13.9.0",
+		"stylelint-config-sass-guidelines": "^7.1.0",
+		"stylelint-scss": "^3.18.0"
+	}
+}
