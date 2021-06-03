@@ -2,7 +2,7 @@
 	"license": "MIT",
 	"private": false,
 	"main": "index.js",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"name": "@oly_op/stylelint-config",
 	"description": "@oly_op/stylelint-config",
 	"bugs": "https://github.com/olyop/stylelint-config/issues",
@@ -24,8 +24,8 @@
 		"push": "clear && git status && git add -A && git commit -m \"Update\" && git push -u origin main"
 	},
 	"dependencies": {
-		"stylelint": "^13.9.0",
-		"stylelint-config-sass-guidelines": "^7.1.0",
-		"stylelint-scss": "^3.18.0"
+		"stylelint": "13.13.1",
+		"stylelint-config-sass-guidelines": "8.0.0",
+		"stylelint-scss": "3.19.0"
 	}
 }
