@@ -27,5 +27,8 @@
 		"stylelint": "13.13.1",
 		"stylelint-config-sass-guidelines": "8.0.0",
 		"stylelint-scss": "3.19.0"
+	},
+	"devDependencies": {
+		"typescript": "4.3.2"
 	}
 }
