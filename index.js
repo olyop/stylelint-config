@@ -3,6 +3,12 @@ module.exports = {
 		"stylelint-declaration-block-no-ignored-properties",
 		"stylelint-scss",
 	],
+	"overrides": [
+    {
+      "files": ["**/*.scss"],
+      "customSyntax": "postcss-scss"
+    }
+  ],
 	"extends": "stylelint-config-sass-guidelines",
 	"rules": {
 		"indentation": "tab",
