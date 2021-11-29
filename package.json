@@ -1,7 +1,7 @@
 {
 	"license": "MIT",
 	"private": false,
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"main": "index.js",
 	"name": "@oly_op/stylelint-config",
 	"description": "@oly_op/stylelint-config",
@@ -24,7 +24,8 @@
 		"stylelint": "14"
 	},
 	"dependencies": {
-		"stylelint": "^14.1.0",
+		"postcss-scss": "^4.0.2",
+		"stylelint": "14",
 		"stylelint-config-sass-guidelines": "^9.0.1",
 		"stylelint-declaration-block-no-ignored-properties": "^2.5.0",
 		"stylelint-scss": "^4.0.0"
