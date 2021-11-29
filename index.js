@@ -1,5 +1,8 @@
 module.exports = {
-	"plugins": ["stylelint-scss"],
+	"plugins": [
+		"stylelint-declaration-block-no-ignored-properties",
+		"stylelint-scss",
+	],
 	"extends": "stylelint-config-sass-guidelines",
 	"rules": {
 		"indentation": "tab",
