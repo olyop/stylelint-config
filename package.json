@@ -1,5 +1,4 @@
 {
-	"type": "module",
 	"license": "MIT",
 	"private": false,
 	"version": "2.0.7",
@@ -20,8 +19,9 @@
 		"index.js"
 	],
 	"scripts": {
+		"init": "clear",
 		"postpublish": "npm run push",
-		"prepublish": "tsc",
+		"prepublish": "npm run init && tsc",
 		"sync": "git checkout . && git remote update && git pull",
 		"push": "git add -A && git commit -m \"Update\" && git push -u origin main"
 	},
