@@ -1,0 +1,6 @@
+{
+	"extends": "@oly_op",
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	}
+}
