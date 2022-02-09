@@ -1,8 +1,8 @@
 {
 	"license": "MIT",
 	"private": false,
-	"version": "2.0.16",
 	"main": "index.js",
+	"version": "2.0.18",
 	"name": "@oly_op/stylelint-config",
 	"description": "@oly_op/stylelint-config",
 	"bugs": "https://github.com/olyop/stylelint-config/issues",
@@ -20,7 +20,6 @@
 	],
 	"scripts": {
 		"postpublish": "npm run push",
-		"prepublishOnly": "clear && tsc",
 		"sync": "git checkout . && git remote update && git pull",
 		"push": "git add -A && git commit -m \"Update\" && git push -u origin main"
 	},
