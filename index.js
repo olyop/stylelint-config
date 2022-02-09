@@ -1,7 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const config = {
-    extends: "stylelint-config-sass-guidelines",
+    extends: [
+        "stylelint-config-standard-scss",
+        "stylelint-config-sass-guidelines",
+    ],
     plugins: [
         "stylelint-declaration-block-no-ignored-properties",
         "stylelint-scss",

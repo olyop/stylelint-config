@@ -1,7 +1,10 @@
 import { Config } from "stylelint"
 
 const config: Config = {
-	extends: "stylelint-config-sass-guidelines",
+	extends: [
+		"stylelint-config-standard-scss",
+		"stylelint-config-sass-guidelines",
+	],
 	plugins: [
 		"stylelint-declaration-block-no-ignored-properties",
 		"stylelint-scss",
