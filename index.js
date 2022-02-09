@@ -1,17 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const config = {
+    extends: "stylelint-config-sass-guidelines",
     plugins: [
         "stylelint-declaration-block-no-ignored-properties",
         "stylelint-scss",
     ],
-    overrides: [
-        {
+    overrides: [{
             files: ["**/*.scss"],
-            customSyntax: "postcss-scss"
-        }
-    ],
-    extends: "stylelint-config-sass-guidelines",
+            customSyntax: "postcss-scss",
+        }],
     rules: {
         "indentation": "tab",
         "selector-max-id": 1,

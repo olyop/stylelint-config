@@ -1,17 +1,15 @@
 import { Config } from "stylelint"
 
 const config: Config = {
+	extends: "stylelint-config-sass-guidelines",
 	plugins: [
 		"stylelint-declaration-block-no-ignored-properties",
 		"stylelint-scss",
 	],
-	overrides: [
-		{
-			files: ["**/*.scss"],
-			customSyntax: "postcss-scss"
-		}
-	],
-	extends: "stylelint-config-sass-guidelines",
+	overrides: [{
+		files: ["**/*.scss"],
+		customSyntax: "postcss-scss",
+	}],
 	rules: {
 		"indentation": "tab",
 		"selector-max-id": 1,
