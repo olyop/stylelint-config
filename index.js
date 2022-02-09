@@ -5,10 +5,12 @@ const config = {
         "stylelint-declaration-block-no-ignored-properties",
         "stylelint-scss",
     ],
-    overrides: [{
+    overrides: [
+        {
             files: ["**/*.scss"],
             customSyntax: "postcss-scss"
-        }],
+        }
+    ],
     extends: "stylelint-config-sass-guidelines",
     rules: {
         "indentation": "tab",
