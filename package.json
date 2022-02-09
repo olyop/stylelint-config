@@ -2,7 +2,7 @@
 	"type": "module",
 	"license": "MIT",
 	"private": false,
-	"version": "2.0.5",
+	"version": "2.0.6",
 	"main": "index.js",
 	"name": "@oly_op/stylelint-config",
 	"description": "@oly_op/stylelint-config",
@@ -16,6 +16,9 @@
 		"type": "git",
 		"url": "https://github.com/olyop/stylelint-config.git"
 	},
+	"files": [
+		"index.js"
+	],
 	"scripts": {
 		"postpublish": "npm run push",
 		"prepublish": "tsc",
