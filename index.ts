@@ -35,6 +35,7 @@ const config: Config = {
 		"block-closing-brace-newline-before": null,
 		"order/properties-alphabetical-order": null,
 		"block-closing-brace-space-before": "always",
+		"scss/double-slash-comment-empty-line-before": null,
 		"function-parentheses-space-inside": "never-single-line",
 		"scss/dollar-variable-colon-space-after": "always-single-line",
 	},
