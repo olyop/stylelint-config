@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
     extends: [
         "stylelint-config-standard-scss",
         "stylelint-config-sass-guidelines",
@@ -33,7 +33,9 @@ module.exports = {
         "block-closing-brace-newline-before": null,
         "order/properties-alphabetical-order": null,
         "block-closing-brace-space-before": "always",
+        "scss/double-slash-comment-empty-line-before": null,
         "function-parentheses-space-inside": "never-single-line",
         "scss/dollar-variable-colon-space-after": "always-single-line",
     },
 };
+export default config;
