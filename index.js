@@ -1,4 +1,6 @@
-const config = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var config = {
     extends: [
         "stylelint-config-standard-scss",
         "stylelint-config-sass-guidelines",
@@ -38,4 +40,4 @@ const config = {
         "scss/dollar-variable-colon-space-after": "always-single-line",
     },
 };
-export default config;
+exports.default = config;
