@@ -1,8 +1,9 @@
 {
 	"license": "MIT",
 	"private": false,
+	"type": "commonjs",
 	"main": "index.js",
-	"version": "2.1.1",
+	"version": "2.1.2",
 	"name": "@oly_op/stylelint-config",
 	"description": "@oly_op/stylelint-config",
 	"bugs": "https://github.com/olyop/stylelint-config/issues",

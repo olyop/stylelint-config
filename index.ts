@@ -1,6 +1,6 @@
-import { Config } from "stylelint"
+import type { Config } from "stylelint"
 
-const config: Config = {
+const configuration: Config = {
 	extends: [
 		"stylelint-config-standard-scss",
 		"stylelint-config-sass-guidelines",
@@ -41,4 +41,4 @@ const config: Config = {
 	},
 }
 
-export default config
+module.exports = configuration
