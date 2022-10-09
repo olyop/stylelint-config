@@ -1,0 +1,4 @@
+{
+	"import": ["@oly_op/cspell-dict/cspell-ext.json"],
+	"ignorePaths": ["index.js"]
+}

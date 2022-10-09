@@ -1,20 +1,16 @@
-import type { Config } from "stylelint"
+import type { Config } from "stylelint";
 
 const configuration: Config = {
-	extends: [
-		"stylelint-config-standard-scss",
-		"stylelint-config-sass-guidelines",
+	extends: ["stylelint-config-standard-scss", "stylelint-config-sass-guidelines"],
+	plugins: ["stylelint-declaration-block-no-ignored-properties", "stylelint-scss"],
+	overrides: [
+		{
+			files: ["**/*.scss"],
+			customSyntax: "postcss-scss",
+		},
 	],
-	plugins: [
-		"stylelint-declaration-block-no-ignored-properties",
-		"stylelint-scss",
-	],
-	overrides: [{
-		files: ["**/*.scss"],
-		customSyntax: "postcss-scss",
-	}],
 	rules: {
-		"indentation": "tab",
+		"indentation": null,
 		"selector-max-id": 1,
 		"max-line-length": 200,
 		"property-case": "lower",
@@ -29,16 +25,19 @@ const configuration: Config = {
 		"selector-class-pattern": null,
 		"at-rule-empty-line-before": null,
 		"selector-pseudo-class-case": "lower",
+		"scss/operator-no-newline-after": null,
+		"value-list-comma-newline-after": null,
+		"declaration-colon-newline-after": null,
+		"block-closing-brace-space-before": null,
 		"declaration-empty-line-before": "never",
 		"no-missing-end-of-source-newline": null,
 		"custom-property-empty-line-before": null,
 		"block-closing-brace-newline-before": null,
 		"order/properties-alphabetical-order": null,
-		"block-closing-brace-space-before": "always",
 		"scss/double-slash-comment-empty-line-before": null,
 		"function-parentheses-space-inside": "never-single-line",
 		"scss/dollar-variable-colon-space-after": "always-single-line",
 	},
-}
+};
 
-module.exports = configuration
+module.exports = configuration;
