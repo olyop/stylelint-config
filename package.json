@@ -35,7 +35,6 @@
 		"stylelint": "14"
 	},
 	"dependencies": {
-		"eslint-plugin-unicorn": "44.0.2",
 		"postcss": "8.4.17",
 		"postcss-scss": "4.0.5",
 		"stylelint-config-sass-guidelines": "9.0.1",
@@ -44,7 +43,7 @@
 	},
 	"devDependencies": {
 		"@oly_op/cspell-dict": "1.0.115",
-		"@oly_op/eslint-config": "6.0.3",
+		"@oly_op/eslint-config": "6.0.9",
 		"@oly_op/prettier-config": "1.0.13",
 		"@oly_op/tsconfig": "1.0.24",
 		"@types/node": "18.8.3",
@@ -60,6 +59,7 @@
 		"eslint-plugin-node": "11.1.0",
 		"eslint-plugin-prefer-arrow-functions": "3.1.4",
 		"eslint-plugin-promise": "6.0.1",
+		"eslint-plugin-unicorn": "44.0.2",
 		"npm-check-updates": "16.3.9",
 		"npm-run-all": "4.1.5",
 		"prettier": "2.7.1",
