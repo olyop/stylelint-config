@@ -3,7 +3,7 @@
 	"private": false,
 	"type": "commonjs",
 	"main": "index.js",
-	"version": "2.1.4",
+	"version": "2.2.0",
 	"name": "@oly_op/stylelint-config",
 	"description": "@oly_op/stylelint-config",
 	"bugs": "https://github.com/olyop/stylelint-config/issues",
@@ -32,39 +32,39 @@
 		"push": "git add -A && git commit -m \"Update\" && git push"
 	},
 	"peerDependencies": {
-		"stylelint": "14"
+		"stylelint": "15"
 	},
 	"dependencies": {
-		"postcss": "8.4.17",
-		"postcss-scss": "4.0.5",
+		"postcss": "8.4.21",
+		"postcss-scss": "4.0.6",
 		"stylelint-config-sass-guidelines": "9.0.1",
-		"stylelint-declaration-block-no-ignored-properties": "2.5.0",
-		"stylelint-scss": "4.3.0"
+		"stylelint-declaration-block-no-ignored-properties": "2.7.0",
+		"stylelint-scss": "4.4.0"
 	},
 	"devDependencies": {
 		"@oly_op/cspell-dict": "1.0.115",
-		"@oly_op/eslint-config": "6.0.9",
-		"@oly_op/prettier-config": "1.0.13",
-		"@oly_op/tsconfig": "1.0.24",
-		"@types/node": "18.8.3",
-		"@typescript-eslint/eslint-plugin": "5.39.0",
-		"cspell": "6.12.0",
+		"@oly_op/eslint-config": "6.0.18",
+		"@oly_op/prettier-config": "1.0.21",
+		"@oly_op/tsconfig": "1.0.25",
+		"@types/node": "18.14.0",
+		"@typescript-eslint/eslint-plugin": "5.52.0",
+		"cspell": "6.26.3",
 		"del-cli": "5.0.0",
-		"eslint": "8.25.0",
+		"eslint": "8.34.0",
 		"eslint-config-airbnb": "19.0.4",
 		"eslint-config-airbnb-base": "15.0.0",
 		"eslint-config-airbnb-typescript": "17.0.0",
-		"eslint-plugin-import": "2.26.0",
+		"eslint-plugin-import": "2.27.5",
 		"eslint-plugin-json": "3.1.0",
 		"eslint-plugin-node": "11.1.0",
 		"eslint-plugin-prefer-arrow-functions": "3.1.4",
-		"eslint-plugin-promise": "6.0.1",
-		"eslint-plugin-unicorn": "44.0.2",
-		"npm-check-updates": "16.3.9",
+		"eslint-plugin-promise": "6.1.1",
+		"eslint-plugin-unicorn": "45.0.2",
+		"npm-check-updates": "16.7.5",
 		"npm-run-all": "4.1.5",
-		"prettier": "2.7.1",
-		"stylelint": "14.13.0",
-		"stylelint-config-standard-scss": "5.0.0",
-		"typescript": "4.8.4"
+		"prettier": "2.8.4",
+		"stylelint": "15.1.0",
+		"stylelint-config-standard-scss": "7.0.1",
+		"typescript": "4.9.5"
 	}
 }
